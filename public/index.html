@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="grid h-screen place-items-center bg-mainBg text-softBlue">
+    <article
+      class="w-80 p-6 bg-cardBg rounded-2xl shadow-[0px_25px_50px_0pxhsl(0, 0, 0, 0.95)]"
+    >
+      <img
+        src="./assets/image-equilibrium.jpg"
+        class="mb-6 rounded-lg"
+        alt="Equilibrium #3429"
+      />
+      <h1 class="mb-3 text-lg font-semibold text-white">Equilibrium #3429</h1>
+      <p class="mb-4 text-base">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+
+      <section class="flex items-center justify-between mb-4 text-sm">
+        <div class="w-[88px] flex items-center justify-between">
+          <img
+            src="./assets/icon-ethereum.svg"
+            class="inline-block"
+            alt="Etherium Icon"
+          />
+          <p class="font-semibold text-cyan">0.041 ETH</p>
+        </div>
+
+        <div class="w-[93px] flex items-center justify-between">
+          <img
+            src="./assets/icon-clock.svg"
+            class="inline-block"
+            alt="Clock Icon"
+          />
+          <p class="flex items-center font-normal">3 days left</p>
+        </div>
+      </section>
+
+      <section class="flex items-center pt-4 border-t border-t-line">
+        <img
+          src="./assets/image-avatar.png"
+          class="w-[33px] mr-4 border border-white rounded-full"
+          alt="Jules Wyvern"
+        />
+        <p>Creation of <span class="text-white">Jules Wyvern</span></p>
+      </section>
+    </article>
+
+    <footer class="text-[11px] text-center fixed bottom-0">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-white"
+        >Frontend Mentor.</a
+      >
+      Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/dalecarpenter"
+        class="text-white"
+        >Dale Carpenter.</a
+      >
+    </footer>
+  </body>
+</html>
