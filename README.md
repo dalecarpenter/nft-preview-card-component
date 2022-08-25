@@ -14,8 +14,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution: [Link](https://www.frontendmentor.io/solutions/mobilefirst-with-tailwind-and-postcss-1yE844e95T)
+- Live Site: [Link](https://630745aa6a5de06c523f4e05--effortless-dusk-1624a2.netlify.app/)
 
 ## My process
 
@@ -58,6 +56,5 @@ As this is my first time using Tailwind, I would like to continue exploring it's
 
 ## Author
 
-- Website - [Dale Carpenter](https://www.dalecarpenter.co.uk)
 - Frontend Mentor - [@dalecarpenter](https://www.frontendmentor.io/profile/dalecarpenter)
 - Twitter - [@coderCarpenter](https://www.twitter.com/coderCarpenter)
