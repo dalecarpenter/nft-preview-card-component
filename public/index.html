@@ -21,64 +21,88 @@
       rel="stylesheet"
     />
   </head>
-  <body class="grid h-screen place-items-center bg-mainBg text-softBlue">
-    <article
-      class="w-[327px] lg:w-[350px] p-6 bg-cardBg rounded-2xl shadow-[0px_25px_50px_0pxhsl(0, 0, 0, 0.95)]"
-    >
-      <img
-        src="./assets/image-equilibrium.jpg"
-        class="mb-6 rounded-lg"
-        alt="Equilibrium #3429"
-      />
-      <h1 class="mb-3 text-lg font-semibold text-white lg:mb-4">
-        Equilibrium #3429
-      </h1>
-      <p class="mb-4 text-base lg:mb-6">
-        Our Equilibrium collection promotes balance and calm.
-      </p>
-
-      <section class="flex items-center justify-between mb-4 text-sm lg:mb-6">
-        <div class="w-[88px] flex items-center justify-between">
+  <body class="grid h-screen bg-mainBg place-items-center text-softBlue">
+    <main>
+      <article
+        class="w-[327px] lg:w-[350px] p-6 bg-cardBg rounded-2xl shadow-2xl"
+      >
+        <div class="relative mb-6">
           <img
-            src="./assets/icon-ethereum.svg"
-            class="inline-block"
-            alt="Etherium Icon"
+            src="./assets/image-equilibrium.jpg"
+            class="rounded-lg"
+            alt="Equilibrium #3429"
           />
-          <p class="font-semibold text-cyan">0.041 ETH</p>
+          <div
+            class="transition-all opacity-0 hover:transition-all hover:cursor-pointer hover:opacity-100"
+          >
+            <div class="absolute inset-0 rounded-lg opacity-50 bg-cyan"></div>
+            <img
+              src="./assets/icon-view.svg"
+              class="absolute -translate-x-1/2 -translate-y-1/2 inset-1/2"
+              alt="View Icon"
+            />
+          </div>
         </div>
 
-        <div class="w-[93px] flex items-center justify-between">
-          <img
-            src="./assets/icon-clock.svg"
-            class="inline-block"
-            alt="Clock Icon"
-          />
-          <p class="flex items-center font-normal">3 days left</p>
-        </div>
-      </section>
+        <h1
+          class="mb-3 text-lg font-semibold text-white transition-all lg:mb-4 hover:cursor-pointer hover:text-cyan hover:transition-all"
+        >
+          Equilibrium #3429
+        </h1>
+        <p class="mb-4 text-base lg:mb-6">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
 
-      <section class="flex items-center pt-4 border-t border-t-line">
-        <img
-          src="./assets/image-avatar.png"
-          class="w-[33px] mr-4 border border-white rounded-full"
-          alt="Jules Wyvern"
-        />
-        <p>Creation of <span class="text-white">Jules Wyvern</span></p>
-      </section>
-    </article>
+        <section class="flex items-center justify-between mb-4 text-sm lg:mb-6">
+          <div class="w-[88px] flex items-center justify-between">
+            <img
+              src="./assets/icon-ethereum.svg"
+              class="inline-block"
+              alt="Etherium Icon"
+            />
+            <p class="font-semibold text-cyan">0.041 ETH</p>
+          </div>
+
+          <div class="w-[93px] flex items-center justify-between">
+            <img
+              src="./assets/icon-clock.svg"
+              class="inline-block"
+              alt="Clock Icon"
+            />
+            <p class="flex items-center font-normal">3 days left</p>
+          </div>
+        </section>
+
+        <section class="flex items-center pt-4 border-t border-t-line">
+          <img
+            src="./assets/image-avatar.png"
+            class="w-[33px] mr-4 border border-white rounded-full"
+            alt="Jules Wyvern"
+          />
+          <p>
+            Creation of
+            <span
+              class="text-white hover:transition-all hover:cursor-pointer hover:text-cyan"
+              >Jules Wyvern</span
+            >
+          </p>
+        </section>
+      </article>
+    </main>
 
     <footer class="text-[11px] text-center fixed bottom-0">
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
-        class="text-white"
+        class="text-white hover:transition-all hover:text-cyan"
         >Frontend Mentor.</a
       >
       Coded by
       <a
         href="https://www.frontendmentor.io/profile/dalecarpenter"
-        class="text-white"
+        target="_blank"
+        class="text-white hover:transition-all hover:text-cyan"
         >Dale Carpenter.</a
       >
     </footer>
